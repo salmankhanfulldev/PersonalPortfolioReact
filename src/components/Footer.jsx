@@ -23,21 +23,28 @@ const Footer = () => {
             <p className="text-xs uppercase tracking-[0.35em] text-slate-400">
               Reach out
             </p>
+            
+            {/* Email Link */}
             <a
-              href="mailto:info@codevertex.com"
+              href="mailto:salmankhan737300@gmail.com"
               className="mt-5 inline-flex w-full items-center justify-center rounded-3xl bg-linear-to-r from-primary-purple to-secondary-blue px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-primary-purple/20 transition duration-300 hover:scale-105"
             >
               Email Us
             </a>
-            <button className="mt-4 w-full rounded-3xl border border-white/10 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition duration-300 hover:border-secondary-blue/40 hover:bg-white/10">
+            
+            {/* Contact / Phone Link */}
+            <a 
+              href="tel:+923118298343"
+              className="mt-4 inline-flex w-full items-center justify-center rounded-3xl border border-white/10 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition duration-300 hover:border-secondary-blue/40 hover:bg-white/10"
+            >
               Contact Us
-            </button>
+            </a>
           </div>
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-6 text-sm text-slate-500">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-            <p>© 2026 Code Vertex. All rights reserved.</p>
+            <p>©2026 Copyright Designed & Developed By SALMAN KHAN</p>
             <div className="flex flex-wrap items-center gap-4">
               <a href="#home" className="hover:text-white">
                 Home

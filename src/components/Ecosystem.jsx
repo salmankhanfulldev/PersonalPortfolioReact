@@ -1,6 +1,6 @@
 // import React from 'react';
 
-const tags = ["React", "Node.js", "Python", "Docker", "AWS", "Kubernetes", "GraphQL", "TypeScript", "MongoDB", "Next.js", "Flutter", "Solidity"];
+const tags = ["HTML5", "CSS3", "Tailwind CSS", "JQuery", "JavaScript", "TypeScript", "React", "Node.js", "Express.js", "MongoDB", "Next.js",  "NestJS","Supabase", "Strapi",  "Docker","Git", "Github"];
 
 const Ecosystem = () => {
   return (
@@ -17,10 +17,10 @@ const Ecosystem = () => {
       </div>
       
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-xs font-semibold uppercase tracking-wider text-gray-500">
-        <div className="border-r border-white/10 last:border-0 py-2">Frontend Excellence</div>
-        <div className="border-r border-white/10 last:border-0 py-2">Backend Architectures</div>
-        <div className="border-r border-white/10 last:border-0 py-2">Cloud & DevOps</div>
-        <div className="border-r border-white/10 last:border-0 py-2">Next-Gen Tech</div>
+        <div className="border-r border-white/10 last:border-0 py-2">Frontend Development</div>
+        <div className="border-r border-white/10 last:border-0 py-2">Backend Development</div>
+        <div className="border-r border-white/10 last:border-0 py-2">Full Stack Solutions</div>
+        <div className="border-r border-white/10 last:border-0 py-2">Next-Gen Technologies</div>
       </div>
     </section>
   );

@@ -4,9 +4,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full top-0 z-50 bg-dark-bg/80 backdrop-blur-md border-b border-white/5 px-6 lg:px-24 py-4 flex justify-between items-center">
-      <div className="text-xl font-bold tracking-wider text-white">
-        SALMAN-KHAN
+    <nav className="fixed w-full top-0 z-50 bg-dark-bg/90 backdrop-blur-md border-b border-white/5 px-6 lg:px-24 py-4 flex justify-between items-center">
+      {/* Brand Logo / Name */}
+      <div className="text-xl font-bold tracking-wider text-white z-55">
+        SALMAN KHAN
       </div>
 
       {/* Desktop Menu */}
@@ -30,6 +31,7 @@ const Navbar = () => {
         ))}
       </ul>
 
+      {/* Desktop Contact Button */}
       <a
         href="tel:+923118298343"
         className="hidden md:inline-flex items-center justify-center bg-linear-to-r from-primary-purple to-secondary-blue text-white font-semibold px-6 py-2 rounded-full hover:opacity-90 transition-opacity"
@@ -40,7 +42,7 @@ const Navbar = () => {
       {/* Mobile Burger Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="md:hidden text-white focus:outline-none"
+        className="md:hidden text-white focus:outline-none z-55"
       >
         <svg
           className="w-6 h-6"
@@ -57,32 +59,41 @@ const Navbar = () => {
         </svg>
       </button>
 
-      {/* Mobile Dropdown Menu */}
+      {/* Mobile Full Screen Menu with Matching Blue Scroll Effect Background */}
       {isOpen && (
-        <div className="absolute top-full left-0 w-full bg-dark-bg border-b border-white/5 flex flex-col p-6 space-y-4 md:hidden animate-fadeIn">
-          {[
-            "Home",
-            "Services",
-            "Technologies",
-            "Domains",
-            "Process",
-            "Reviews",
-          ].map((item) => (
+        <div className="fixed inset-0 h-screen w-screen bg-linear-to-b from-dark-bg via-secondary-blue/20 to-dark-bg md:hidden animate-fadeIn z-50 px-8 pt-28 pb-12 flex flex-col justify-between backdrop-blur-lg">
+          
+          {/* Top Section: Links (Left Aligned) */}
+          <div className="flex flex-col space-y-6 text-left w-full">
+            {[
+              "Home",
+              "Services",
+              "Technologies",
+              "Domains",
+              "Process",
+              "Reviews",
+            ].map((item) => (
+              <a
+                key={item}
+                href={`#${item.toLowerCase()}`}
+                onClick={() => setIsOpen(false)}
+                className="text-2xl font-medium text-gray-300 hover:text-secondary-blue transition-colors block w-full"
+              >
+                {item}
+              </a>
+            ))}
+          </div>
+
+          {/* Bottom Section: Left Aligned Contact Us Button with Text-Length Width & Custom Color */}
+          <div className="flex justify-start w-full">
             <a
-              key={item}
-              href={`#${item.toLowerCase()}`}
-              onClick={() => setIsOpen(false)}
-              className="text-gray-300 hover:text-primary-purple"
+              href="tel:+923118298343"
+              className="inline-flex items-center justify-center bg-linear-to-r from-secondary-blue to-primary-purple text-white font-semibold px-8 py-3 rounded-full hover:brightness-110 active:scale-95 transition-all duration-300 text-lg bg-yellow-900"
             >
-              {item}
+              CONTACT US
             </a>
-          ))}
-          <a
-            href="tel:+923118298343"
-            className="bg-linear-to-r from-primary-purple to-secondary-blue text-white py-2 rounded-full text-center"
-          >
-            Contact Us
-          </a>
+          </div>
+
         </div>
       )}
     </nav>
