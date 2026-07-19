@@ -7,6 +7,9 @@ import weatherapp from '../assets/Images/weather app.webp'
 import agecalculator from "../assets/Images/agecalcuator.webp"
 import coraImage from "../assets/Images/cora.jpg"
 import dictionary from "../assets/Images/dictionaryapp.webp"
+import sayaecommerce from "../assets/Images/saya.webp"
+import expensetracker from "../assets/Images/expensetracker.webp"
+import dashboard from "../assets/Images/dashboard.webp"
 const DomainsData = [
   
   
@@ -18,7 +21,17 @@ const DomainsData = [
     githubLink: "https://github.com/salmankhanfulldev/SaglinksPlanoujam",
     image: weddingpicture,
   },
+  
 
+    {
+    title: "Saya E-Commerce Website",
+    description:
+      "Saya e-commerce platform that provides a seamless online shopping experience.Users can browse products, manage their cart, and complete secure purchases with ease.",
+      liveLink: "https://sayaecommercestore.netlify.app/",
+    githubLink: "https://github.com/salmankhanfulldev/SayaEcommerceVue",
+    image: sayaecommerce,
+  },
+  
     {
     title: "Cora E-Commerce Website",
     description:
@@ -27,6 +40,8 @@ const DomainsData = [
     githubLink: "https://github.com/salmankhanfulldev/Cora-E-Commerce-Website",
     image: coraImage,
   },
+
+
   {
     title: "WorldAtlas Website",
     description:
@@ -80,6 +95,23 @@ const DomainsData = [
     liveLink: "https://salmankhanfulldev.github.io/AgeCalculatorUsingJS/",
     githubLink: "https://github.com/salmankhanfulldev/AgeCalculatorUsingJS",
     image: agecalculator,
+  },
+  
+  {
+    title: "Expense Tracker App",
+    description:
+      "Built an intuitive expense tracking system that helps users manage their income and expenses efficiently.It provides real-time financial insights through categorized transactions and detailed expense reports.",
+    liveLink: "https://expensivetrackingsystem.netlify.app/",
+    githubLink: "https://github.com/salmankhanfulldev/Expense-Tracking-System",
+    image: expensetracker,
+  },
+  {
+    title: "Admin Dashboard Panel",
+    description:
+      "Built a modern admin panel with comprehensive tools for monitoring and managing application resources.The dashboard offers data visualization, user administration, and a responsive design for seamless management across devices.",
+    liveLink: "https://miniadminpanel.netlify.app/",
+    githubLink: "https://github.com/salmankhanfulldev/MiniAdminPanelReact",
+    image: dashboard,
   },
     {
     title: " Dictionary App",
