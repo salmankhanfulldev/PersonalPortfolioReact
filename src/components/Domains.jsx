@@ -27,7 +27,7 @@ const DomainsData = [
     title: "Saya E-Commerce Website",
     description:
       "Saya e-commerce platform that provides a seamless online shopping experience.Users can browse products, manage their cart, and complete secure purchases with ease.",
-      liveLink: "https://sayaecommercestore.netlify.app/",
+      liveLink: "https://sayaecommercewebsite.netlify.app",
     githubLink: "https://github.com/salmankhanfulldev/SayaEcommerceVue",
     image: sayaecommerce,
   },
