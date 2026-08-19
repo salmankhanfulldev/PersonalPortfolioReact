@@ -4,17 +4,17 @@ const reviews = [
   {
     name: "Ehsan Ullah",
     role: "Full-Stack Developer (Former Colleague at Saglinks)",
-   text: "Salman Khan is an outstanding frontend developer who brings incredible energy and deep MERN stack expertise to the team. Having worked together at Saglinks, I've seen firsthand his ability to turn complex UI designs into flawless, pixel-perfect code.",
-  },
-  {
-    name: "Muhammad Shahzaib",
-    role: "Frontend Developer (Aman Integrated Solutions Pvt Ltd)",
-   text: "Salman is an absolute asset to any development team. His exceptional frontend skills and dedication were key factors in helping us scale our e-commerce platform smoothly and efficiently.",
+    text: "I had the pleasure of being Salman's senior on the development team at Saglinks. He is a fantastic Associative MERN Stack Developer with a deep understanding of how to build scalable applications from the ground up. Because of his background as a frontend specialist, he brings a great level of polish to the user interfaces he builds with React, while perfectly handling the backend logic with Node and Express. Salman is hardworking, collaborative, and would be a valuable addition to any tech team.",
   },
   {
     name: "Muhammad Haris",
     role: "Frontend Developer React-Native (Codify Pvt Ltd)",
-  text: "Salman Khan is a brilliant developer with a solid understanding of modern web architecture. His ability to simplify complex dashboard logic and build robust SaaS structures is truly top-tier.",
+    text: "Very hard working and quick learner. Salman consistently delivered quality work during his internship and showed great potential",
+  },
+  {
+    name: "Muhammad Shahzaib",
+    role: "Frontend Developer (Aman Integrated Solutions Pvt Ltd)",
+    text: "Salman is an absolute asset to any development team. His exceptional frontend skills and dedication were key factors in helping us scale our e-commerce platform smoothly and efficiently.",
   },
 ];
 
