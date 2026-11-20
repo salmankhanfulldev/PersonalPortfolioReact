@@ -1,18 +1,17 @@
 import { ExternalLink } from "lucide-react";
 import IslamabadElectronicStore from "../assets/Images/islamabad_electrionis_cover.jfif";
 import worldAtls from "../assets/Images/World-Atlas.png";
-import weddingpicture from "../assets/Images/wedding picture.png"
-import todoapp from "../assets/Images/Todo List App.jfif"
-import weatherapp from '../assets/Images/weather app.webp'
-import agecalculator from "../assets/Images/agecalcuator.webp"
-import coraImage from "../assets/Images/cora.jpg"
-import medease from "../assets/Images/medease.webp"
-import sayaecommerce from "../assets/Images/saya.webp"
-import expensetracker from "../assets/Images/expensetracker.webp"
-import dashboard from "../assets/Images/dashboard.webp"
+import weddingpicture from "../assets/Images/wedding picture.png";
+import todoapp from "../assets/Images/Todo List App.jfif";
+import weatherapp from "../assets/Images/weather app.webp";
+import agecalculator from "../assets/Images/agecalcuator.webp";
+import coraImage from "../assets/Images/cora.jpg";
+import medease from "../assets/Images/medease.webp";
+import sayaecommerce from "../assets/Images/saya.webp";
+import expensetracker from "../assets/Images/expensetracker.webp";
+import dashboard from "../assets/Images/dashboard.webp";
+import mediamarson from "../assets/Images/mediamarson.png";
 const DomainsData = [
-  
-  
   {
     title: "Planoujam Wedding Commerce  ",
     description:
@@ -21,26 +20,24 @@ const DomainsData = [
     githubLink: "https://github.com/salmankhanfulldev/SaglinksPlanoujam",
     image: weddingpicture,
   },
-  
 
-    {
+  {
     title: "Saya E-Commerce Website",
     description:
       "Saya e-commerce platform that provides a seamless online shopping experience.Users can browse products, manage their cart, and complete secure purchases with ease.",
-      liveLink: "https://sayaecommercewebsite.netlify.app",
+    liveLink: "https://sayaecommercewebsite.netlify.app",
     githubLink: "https://github.com/salmankhanfulldev/SayaEcommerceVue",
     image: sayaecommerce,
   },
-  
-    {
+
+  {
     title: "Cora E-Commerce Website",
     description:
       "Cora is a premium e-commerce platform dedicated to providing customers with an exceptional selection of curated goods and top-tier service. Elevate your lifestyle today by exploring our diverse marketplace, designed for secure shopping and effortless browsing.",
-      liveLink: "https://salmankhanfulldev.github.io/Cora-E-Commerce-Website/",
+    liveLink: "https://salmankhanfulldev.github.io/Cora-E-Commerce-Website/",
     githubLink: "https://github.com/salmankhanfulldev/Cora-E-Commerce-Website",
     image: coraImage,
   },
-
 
   {
     title: "WorldAtlas Website",
@@ -49,21 +46,18 @@ const DomainsData = [
     liveLink: "https://worldatlas0011.netlify.app/",
     githubLink: "https://github.com/salmankhanfulldev/WorldAtlas",
     image: worldAtls, // Apni actual image ka path yahan dalein
-  }
-  ,
- 
-  
-  
+  },
+
   {
     title: "Saglinks Company Website",
     description:
       "A modern and responsive company website developed for SAGLINKS Islamabad to showcase its services, expertise, and business information. The website features a professional design, intuitive navigation, and a user-friendly experience across all devices",
-      liveLink: "https://saglinkscompywebsite.vercel.app/",
+    liveLink: "https://saglinkscompywebsite.vercel.app/",
     githubLink: "https://github.com/salmankhanfulldev/Saglinks",
     image:
       "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=600&auto=format&fit=crop",
   },
-   {
+  {
     title: "Electronic Store",
     description:
       "This Electronic store website is built with React.js and provides a seamless shopping experience. Users can filter products add items to the cart, and place orders easily through a user-friendly interface.",
@@ -72,12 +66,29 @@ const DomainsData = [
     image: IslamabadElectronicStore,
   },
   {
+    title: "MedEase Website",
+    description:
+      "A responsive medical website that provides easy access to healthcare information, appointment booking, and telemedicine services. It features a clean design and intuitive navigation for a seamless user experience.",
+    liveLink: "https://med-ease-omega.vercel.app/",
+    githubLink: "https://github.com/salmankhanfulldev/MedEase",
+    image: medease,
+  },
+  {
     title: "Weather App",
     description:
       "A responsive Weather App that detects the user's live location and provides real-time weather updates. It displays the current temperature, weather conditions (such as sunny, rainy, or snowy), and location details for accurate forecasts.",
     liveLink: "https://weatherapp44.netlify.app/",
     githubLink: "https://github.com/salmankhanfulldev/ReactWeatherApp",
     image: weatherapp,
+  },
+
+  {
+    title: "MediaMarson Website",
+    description:
+      "MediaMarson is a modern and user-friendly educational platform designed to provide a seamless digital learning experience. It offers an intuitive interface that helps users explore learning resources, organize educational content, and manage their learning activities efficiently. Built with a focus on simplicity, accessibility, and performance, Logica aims to make learning smarter, more engaging, and productive.",
+    liveLink: "https://assestask-media-marsons-u9rq.vercel.app/",
+    githubLink: "https://github.com/salmankhanfulldev/assestaskMediaMarsons",
+    image: mediamarson,
   },
   {
     title: "Todo App",
@@ -96,7 +107,7 @@ const DomainsData = [
     githubLink: "https://github.com/salmankhanfulldev/AgeCalculatorUsingJS",
     image: agecalculator,
   },
-  
+
   {
     title: "Expense Tracker App",
     description:
@@ -112,15 +123,6 @@ const DomainsData = [
     liveLink: "https://miniadminpanel.netlify.app/",
     githubLink: "https://github.com/salmankhanfulldev/MiniAdminPanelReact",
     image: dashboard,
-  },
-    {
-    title: "MedEase Website",
-    description:
-      "A responsive medical website that provides easy access to healthcare information, appointment booking, and telemedicine services. It features a clean design and intuitive navigation for a seamless user experience.",
-    liveLink: "https://med-ease-omega.vercel.app/",
-    githubLink: "https://github.com/salmankhanfulldev/MedEase",
-    image: medease,
-
   },
 ];
 
