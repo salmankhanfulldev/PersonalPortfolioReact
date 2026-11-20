@@ -6,7 +6,7 @@ import todoapp from "../assets/Images/Todo List App.jfif"
 import weatherapp from '../assets/Images/weather app.webp'
 import agecalculator from "../assets/Images/agecalcuator.webp"
 import coraImage from "../assets/Images/cora.jpg"
-import dictionary from "../assets/Images/dictionaryapp.webp"
+import medease from "../assets/Images/medease.webp"
 import sayaecommerce from "../assets/Images/saya.webp"
 import expensetracker from "../assets/Images/expensetracker.webp"
 import dashboard from "../assets/Images/dashboard.webp"
@@ -114,12 +114,12 @@ const DomainsData = [
     image: dashboard,
   },
     {
-    title: " Dictionary App",
+    title: "MedEase Website",
     description:
-      "A responsive Dictionary app that allows users to search for words, view definitions, and explore synonyms. It provides a user-friendly interface for quick and easy access to a comprehensive collection of words and their meanings.",
-    liveLink: "https://salmankhanfulldev.github.io/Dictionary-App/",
-    githubLink: "https://github.com/salmankhanfulldev/Dictionary-App",
-    image: dictionary,
+      "A responsive medical website that provides easy access to healthcare information, appointment booking, and telemedicine services. It features a clean design and intuitive navigation for a seamless user experience.",
+    liveLink: "https://med-ease-omega.vercel.app/",
+    githubLink: "https://github.com/salmankhanfulldev/MedEase",
+    image: medease,
 
   },
 ];
